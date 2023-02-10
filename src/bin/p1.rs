@@ -30,7 +30,7 @@ fn main() {
             };
         break;
     }
-    println!("Result: {}", sum_of_multiples(n, &divisors));
+    println!("The sum of multiples of {divisors:?} under {n} is: {}", sum_of_multiples(n, &divisors));
 }
 
 fn sum_of_multiples(max_number: u32, divisors: &[u32]) -> u32 {
